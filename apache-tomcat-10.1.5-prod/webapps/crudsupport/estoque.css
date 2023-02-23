@@ -1,0 +1,114 @@
+@charset "UTF-8";
+.top-bar{
+    position: absolute;
+    width: 100%;
+    height: 16%;
+    left: 0px;
+    top: 0px;
+    background: #FF7A00;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.40);
+}
+
+.top-bar h1{
+    position: absolute;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+main{
+    margin-top: 20vh;
+}
+
+
+table{
+    margin-left: 2vw;
+    width: 90vw;
+    font-size: 1.4vw;
+    border-collapse: separate;
+    border-spacing: 0.2vw;
+}
+
+th, td{
+    border: 0.1vw solid black;
+    padding: 5px;
+}
+
+.botao{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 1.4vw;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+
+
+#editar {
+    color: rgb(79, 146, 247);
+}
+
+#remover {
+    color: red;
+}
+
+.botaoCadastro{
+    left: 0px;
+    top: 0px;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.4vw;
+    background: #FF7A00;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+    width: 15vw;
+    height: 3vw;
+    margin-top: 1vw;
+    margin-left: 2.1vw;
+    cursor: pointer;
+}
+
+.busca{
+    margin-left: 2.1vw;
+    margin-bottom: 1vw;
+}
+
+.busca input{
+    height: 2.5vw;
+    width: 38vw;
+    border-radius: 0.3vw;
+    border: 1px solid black; 
+    padding-left: 1vw;
+    font-size: 1.2vw;
+}
+
+#botao-buscar{
+    cursor: pointer;
+    margin-left: 1vw;
+    width: 8vw;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.4vw;
+    background: #FF7A00;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+#botao-buscar:hover{
+	background: #ff5100;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Editar Produto</title>
+    <link rel="stylesheet" href="cadastroStyle.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="top-bar">
+                <h1>Editar Produto</h1>
+            </div>
+        </header>
+
+        <main>
+            <form action="/crudsupport/cadastrarProduto" method="POST">
+                <div class="inputs">
+                    <input class="inputt" type="text" placeholder="Nome" name="nome">
+                </div>
+                <br><br>
+                <div class="inputs">
+                    <input class="inputt" type="text" placeholder="Descrição" name="descricao">
+                </div>
+                <br><br>
+                <div class="inputs">
+                    <input class="inputt" type="text" placeholder="Marca" name="marca">
+                </div>
+                <br><br>
+                <div id="shorts">
+                    <div class="short-inputs" >
+                        <input class="short-inputt" type="number" placeholder="Preço" step="0.01" name="preco">
+                    </div>
+                    
+                    <div class="short-inputs" >
+                        <input class="short-inputt" type="number" placeholder="Quantidade" step="1" name="quantidade">
+                    </div>
+                </div>
+
+                <div class="submit-input">
+                    <input type="submit" value="CADASTRAR">
+                </div>
+                
+            </form>
+        </main>
+    </body>
+</html>

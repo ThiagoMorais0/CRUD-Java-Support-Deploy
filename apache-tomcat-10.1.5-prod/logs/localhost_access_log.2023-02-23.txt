@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [23/Feb/2023:06:31:10 -0300] "GET /crudsupport/listarProdutos HTTP/1.1" 200 50508
+0:0:0:0:0:0:0:1 - - [23/Feb/2023:06:31:10 -0300] "GET /crudsupport/estoque.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [23/Feb/2023:06:31:15 -0300] "GET /crudsupport HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [23/Feb/2023:06:31:15 -0300] "GET /crudsupport/ HTTP/1.1" 200 50508
